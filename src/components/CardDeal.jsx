@@ -6,12 +6,11 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        Obtenha controle total <br className="sm:block hidden" /> do seu negócio.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+        Poderia existir uma plataforma para analisar clientes recorrentes, perfil de consumidores e muito mais... 
+        Ops, já existe! A <span className="text-teal-400">WhiteX</span> personaliza tudo pra você, queremos sua marca visível em todos os lugares.
       </p>
 
       <Button styles={`mt-10`} />

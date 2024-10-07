@@ -2,7 +2,7 @@ import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
-  <section id="product" className={layout.sectionReverse}>
+  <section id="produto" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
@@ -14,13 +14,11 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
+        Fácil controle<br className="sm:block hidden" /> de receitas e despesas
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-        placerat.
+      Obtenha acesso a controles completos de receitas, despesas e rendimentos. 
+      Também disponibilizamos gráficos intuitivos para auxiliar na análise do seu fluxo de caixa e rendimentos.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
